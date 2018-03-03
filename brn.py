@@ -1,13 +1,10 @@
 import torch
 import sys
 import pickle
-import foolbox
 from torch.utils.serialization import load_lua
-import pdb
 import os
 import numpy as np
 import torchfile
-import scipy.io
 from torch import nn
 from torch.autograd import Variable
 import argparse
